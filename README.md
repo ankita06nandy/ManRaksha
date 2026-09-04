@@ -1,9 +1,9 @@
-# ManRaksha
+## ManRaksha
 AI-Based Predictive Personnel Stress and Welfare Monitoring System for Uniformed Forces 
 
-## Project Overview 
+# Project Overview 
 The proposed MANRAKSHA system is an AI-powered personnel welfare platform that analyzes organizational and voluntarily provided wellness data to identify early indicators of stress and burnout.
-# Key components:
+## Key components:
 HR, duty, workload and deployment data analysis.
 Secure mobile-based wellness self-assessment.
 Optional biometric/wearable data where authorized.
@@ -12,10 +12,10 @@ Predictive risk scoring and stress trajectory analysis.
 Explainable welfare alerts for authorized officers.
 Personalized recommendations for counselling, rest and workload balancing.
 Privacy-preserving architecture with encryption, anonymization and RBAC.
-# Core principle: 
+## Core principle: 
 Predict the need for support, not the fitness of the individual.
 
-## Key Features 
+# Key Features 
 *Stress Trajectory:* Tracks changing risk instead of relying on one-time assessments.
 *Predictive Analytics:* Identifies rising risk before it becomes critical.
 *Voluntary Wellness App:* Enables confidential self-assessment.
@@ -26,7 +26,7 @@ Predict the need for support, not the fitness of the individual.
 *Privacy-by-Design:* Protects sensitive personnel information.
 *Human-in-the-Loop:* AI supports welfare officers rather than replacing human judgment.
 
-## System Architechure 
+# System Architechure 
 Solution Architecture
 
 DATA SOURCES
@@ -73,8 +73,8 @@ FEEDBACK LOOP
 
 Outcome → Model Improvement
 
-## User Roles and Access 
-# Personnel
+# User Roles and Access 
+## Personnel
 
 Access to:
 Personal wellness insights
@@ -83,7 +83,7 @@ Personal risk trends
 Welfare recommendations
 Support resources
 
-# Welfare Officer
+## Welfare Officer
 
 Access to:
 Welfare indicators
@@ -92,7 +92,7 @@ Priority attention profiles
 Explainable risk factors
 Welfare intervention recommendations
 
-# Administrator
+## Administrator
 
 Access to:
 Aggregate welfare trends
@@ -100,37 +100,37 @@ Workload patterns
 Organization-level analytics
 System-level insights
 
-## Technology Stack
+# Technology Stack
 
-#Frontend
+## Frontend
 React.js
 Vite
 
-# Backend
+## Backend
 Python
 FastAPI
 REST APIs
 
-# AI / ML
+## AI / ML
 Python
 Scikit-learn
 Explainable AI techniques
 
-# Database
+## Database
 PostgreSQL
 
-# Security
+## Security
 Encryption
 Authentication & Authorization
 Anonymization
 
-# Deployment
+## Deployment
 Vercel
 Cloud 
 
-## System Strengths
+# System Strengths
 
-# Feasibility
+## Feasibility
 Uses existing AI/ML and predictive analytics technologies.
 Can integrate with existing HRMS and personnel management systems.
 Requires minimal additional hardware for initial deployment.
@@ -139,7 +139,7 @@ Mobile wellness application enables convenient self-reporting.
 Modular architecture allows phased implementation and testing.
 Can be scaled from a pilot unit to force-wide deployment.
 Existing cybersecurity technologies can support encryption and access control.
-# Viability
+## Viability
 Enables early and preventive welfare intervention.
 Reduces dependence on manual monitoring.
 Supports evidence-based workload and personnel management.
@@ -148,7 +148,7 @@ Continuous monitoring enables identification of changing risk patterns.
 Privacy safeguards can improve personnel trust and participation.
 Feedback mechanisms allow continuous improvement of the system.
 Supports long-term organizational resilience and readiness.
-# Business / Market Potential
+## Business / Market Potential
 Central Armed Police Forces (CAPFs)
 Indian Armed Forces
 State Police Organizations
@@ -156,7 +156,7 @@ Disaster Response & Emergency Services
 Government departments with high-stress workforces
 Corporate employee wellness platforms
 International security and workforce-welfare organizations
-# Impact
+## Impact
 Risk Identification at Early Stages – Picks up signs of stress and burnout before they reach critical levels.
 Well-being – Facilitates counseling and welfare measures.
 Fatigue Reduction – Assists in recognizing overwork and inadequate recuperation periods.
@@ -164,7 +164,7 @@ Readiness Enhancement – Promotes healthier and sturdier staff.
 Effective Planning of Welfare Services – Based on factual information about the organization.
 Prevention of Stress-Induced Cases – Motivates preventive action.
 Retention of Employees – Appropriate welfare can lead to job satisfaction.
-# Benefits
+## Benefits
 Tailored welfare assistance.
 Optimized workload sharing.
 Efficient welfare decision-making process.
@@ -175,7 +175,7 @@ Resilience building in personnel.
 Organizational trust through privacy.
 Scalability across several forces.
 Proactive welfare management rather than reactive responses.
-# Privacy, Ethics & Security
+## Privacy, Ethics & Security
 Because the system handles highly sensitive personnel information, privacy is a core design requirement.
 Consent-based wellness and biometric data collection.
 Collection of only necessary data.
@@ -187,7 +187,7 @@ Human verification before significant welfare decisions.
 Transparent and explainable risk assessments.
 Secure audit logs and controlled data retention.
 System designed to minimize stigmatization and misuse.
-# Future Scope
+## Future Scope
 Integration with advanced wearable devices.
 Multilingual wellness applications.
 Voice-based or conversational wellness assessments.
@@ -198,12 +198,12 @@ Integration with existing government welfare platforms.
 Expansion to disaster-response and other high-stress occupations.
 
 
-## Acknowledgement
+# Acknowledgement
 The project is informed by research and frameworks related to occupational mental health, military mental healthcare, responsible AI, and AI risk management.
 
 Special acknowledgement to the research and public-health organizations whose work contributed to the conceptual foundation of MANRAKSHA.
 
-## Disclaimer
+# Disclaimer
 
 MANRAKSHA is a welfare decision-support system.
 
