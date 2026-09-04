@@ -1,0 +1,1518 @@
+/* =========================================================
+   MANRAKSHA — APP.CSS
+   Theme: Cream + Butter Yellow + Moss + Sky Blue + Plum
+   ========================================================= */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    sans-serif;
+  background: #FFFDF2;
+  color: #3F2D3A;
+  line-height: 1.6;
+}
+
+button {
+  font: inherit;
+  cursor: pointer;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+
+/* =========================================================
+   COLOR PALETTE
+   ========================================================= */
+
+:root {
+  --cream: #FFFDF2;
+  --butter: #FBE38E;
+  --moss: #7A9A60;
+
+  --sky: #DCEFF2;
+  --sky-dark: #8FBFC6;
+
+  --text: #3F2D3A;
+  --muted: #66535F;
+
+  --coral: #E89D52;
+
+  --white: #FFFFFF;
+
+  --border: rgba(63, 45, 58, 0.14);
+}
+
+
+/* =========================================================
+   MAIN APP
+   ========================================================= */
+
+.app {
+  min-height: 100vh;
+
+  background:
+    radial-gradient(
+      circle at 15% 8%,
+      rgba(251, 227, 142, 0.50),
+      transparent 28%
+    ),
+    radial-gradient(
+      circle at 85% 20%,
+      rgba(220, 239, 242, 0.65),
+      transparent 30%
+    ),
+    linear-gradient(
+      to bottom,
+      #FFFDF2 0%,
+      #FBE38E 52%,
+      #7A9A60 100%
+    );
+
+  background-attachment: fixed;
+
+  color: #3F2D3A;
+}
+
+
+/* =========================================================
+   NAVBAR
+   ========================================================= */
+
+.navbar {
+  height: 76px;
+  padding: 0 7%;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  background: rgba(255, 253, 242, 0.90);
+
+  border-bottom: 1px solid rgba(63, 45, 58, 0.10);
+
+  backdrop-filter: blur(16px);
+
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  color: #3F2D3A;
+
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: -0.5px;
+}
+
+.logo-mark {
+  width: 34px;
+  height: 34px;
+
+  border-radius: 10px;
+
+  display: grid;
+  place-items: center;
+
+  background: linear-gradient(
+    135deg,
+    #8FBFC6,
+    #7A9A60
+  );
+
+  color: #3F2D3A;
+
+  font-weight: 800;
+}
+
+.nav-links {
+  display: flex;
+  gap: 34px;
+
+  color: #3F2D3A;
+
+  font-size: 14px;
+}
+
+.nav-links a {
+  transition: 0.2s ease;
+}
+
+.nav-links a:hover {
+  color: #E89D52;
+}
+
+
+/* =========================================================
+   BUTTONS
+   ========================================================= */
+
+.nav-button,
+.primary-button {
+  border: none;
+
+  border-radius: 10px;
+
+  padding: 12px 20px;
+
+  background: #3F2D3A;
+
+  color: #FFFDF2;
+
+  font-weight: 600;
+
+  transition: 0.25s ease;
+}
+
+.nav-button:hover,
+.primary-button:hover {
+  background: #E89D52;
+
+  color: #FFFDF2;
+
+  transform: translateY(-2px);
+
+  box-shadow:
+    0 10px 30px rgba(232, 157, 82, 0.30);
+}
+
+.primary-button {
+  padding: 14px 24px;
+}
+
+.secondary-button {
+  padding: 14px 24px;
+
+  border: 1px solid #3F2D3A;
+
+  border-radius: 10px;
+
+  background: rgba(255, 253, 242, 0.78);
+
+  color: #3F2D3A;
+}
+
+.secondary-button:hover {
+  background: #FBE38E;
+
+  border-color: #3F2D3A;
+}
+
+
+/* =========================================================
+   HERO
+   ========================================================= */
+
+.hero {
+  max-width: 1200px;
+
+  min-height: 760px;
+
+  margin: auto;
+
+  padding: 100px 5%;
+
+  display: grid;
+
+  grid-template-columns: 1.05fr 0.95fr;
+
+  gap: 70px;
+
+  align-items: center;
+}
+
+.hero-content {
+  max-width: 650px;
+}
+
+.eyebrow,
+.section-label {
+  color: #7A9A60;
+
+  font-size: 12px;
+
+  font-weight: 700;
+
+  letter-spacing: 2px;
+
+  margin-bottom: 22px;
+}
+
+.hero h1 {
+  color: #3F2D3A;
+
+  font-size: clamp(48px, 6vw, 76px);
+
+  line-height: 1.02;
+
+  letter-spacing: -4px;
+
+  margin-bottom: 28px;
+}
+
+.hero h1 span {
+  background: linear-gradient(
+    90deg,
+    #3F2D3A,
+    #8FBFC6
+  );
+
+  -webkit-background-clip: text;
+
+  -webkit-text-fill-color: transparent;
+}
+
+.hero-content > p {
+  max-width: 580px;
+
+  color: #66535F;
+
+  font-size: 18px;
+
+  line-height: 1.8;
+
+  margin-bottom: 32px;
+}
+
+.hero-buttons {
+  display: flex;
+
+  gap: 14px;
+
+  margin-bottom: 25px;
+}
+
+.trust-line {
+  color: #66535F;
+
+  font-size: 12px;
+}
+
+.trust-line span {
+  color: #E89D52;
+}
+
+
+/* =========================================================
+   DASHBOARD PREVIEW — SKY BLUE
+   ========================================================= */
+
+.dashboard-preview {
+  padding: 25px;
+
+  border: 1px solid rgba(63, 45, 58, 0.12);
+
+  border-radius: 22px;
+
+  background: #DCEFF2;
+
+  color: #3F2D3A;
+
+  box-shadow:
+    0 30px 80px rgba(63, 45, 58, 0.15);
+
+  backdrop-filter: blur(20px);
+}
+
+.preview-header {
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+
+  margin-bottom: 22px;
+}
+
+.preview-header small,
+.risk-card small,
+.preview-grid small,
+.factors > small {
+  color: #66535F;
+
+  font-size: 10px;
+
+  letter-spacing: 1px;
+}
+
+.preview-header h3 {
+  margin-top: 5px;
+
+  font-size: 20px;
+
+  color: #3F2D3A;
+}
+
+.status-dot {
+  color: #7A9A60;
+
+  font-size: 11px;
+}
+
+
+/* =========================================================
+   RISK CARD
+   ========================================================= */
+
+.risk-card {
+  padding: 24px;
+
+  border-radius: 16px;
+
+  background: rgba(255, 253, 242, 0.70);
+
+  border: 1px solid rgba(63, 45, 58, 0.10);
+
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+}
+
+.risk-card strong {
+  display: block;
+
+  color: #3F2D3A;
+
+  font-size: 48px;
+
+  line-height: 1.1;
+
+  margin: 7px 0;
+}
+
+.moderate {
+  font-size: 11px;
+
+  color: #E89D52;
+}
+
+.mini-chart {
+  color: #7A9A60;
+
+  font-size: 20px;
+
+  letter-spacing: 4px;
+}
+
+
+/* =========================================================
+   PREVIEW GRID
+   ========================================================= */
+
+.preview-grid {
+  display: grid;
+
+  grid-template-columns: 1fr 1fr;
+
+  gap: 14px;
+
+  margin-top: 14px;
+}
+
+.preview-grid > div {
+  padding: 20px;
+
+  border-radius: 14px;
+
+  background: rgba(255, 253, 242, 0.68);
+
+  border: 1px solid rgba(63, 45, 58, 0.08);
+}
+
+.preview-grid strong {
+  display: block;
+
+  color: #3F2D3A;
+
+  font-size: 28px;
+
+  margin: 5px 0;
+}
+
+.preview-grid span {
+  color: #66535F;
+
+  font-size: 11px;
+}
+
+
+/* =========================================================
+   FACTORS
+   ========================================================= */
+
+.factors {
+  margin-top: 14px;
+
+  padding: 20px;
+
+  border-radius: 14px;
+
+  background: rgba(255, 253, 242, 0.60);
+}
+
+.factor {
+  display: flex;
+
+  justify-content: space-between;
+
+  padding: 13px 0;
+
+  border-bottom: 1px solid rgba(63, 45, 58, 0.10);
+
+  color: #3F2D3A;
+
+  font-size: 13px;
+}
+
+.factor:last-child {
+  border-bottom: none;
+}
+
+.factor b {
+  color: #7A9A60;
+}
+
+
+/* =========================================================
+   SECTIONS
+   ========================================================= */
+
+.problem-section,
+.how-section,
+.about-section {
+  max-width: 1100px;
+
+  margin: auto;
+
+  padding: 120px 5%;
+}
+
+.problem-section {
+  text-align: center;
+
+  border-top: 1px solid rgba(63, 45, 58, 0.10);
+}
+
+.problem-section h2,
+.how-section h2,
+.about-section h2 {
+  color: #3F2D3A;
+
+  font-size: clamp(38px, 5vw, 58px);
+
+  line-height: 1.1;
+
+  letter-spacing: -2px;
+
+  margin-bottom: 25px;
+}
+
+.problem-section h2 span {
+  color: #E89D52;
+}
+
+.problem-section > p {
+  max-width: 720px;
+
+  margin: auto;
+
+  color: #66535F;
+
+  font-size: 17px;
+}
+
+
+/* =========================================================
+   FLOW
+   ========================================================= */
+
+.how-section {
+  max-width: 1200px;
+}
+
+.flow {
+  margin-top: 55px;
+
+  display: grid;
+
+  grid-template-columns:
+    1fr auto
+    1fr auto
+    1fr auto
+    1fr;
+
+  gap: 20px;
+
+  align-items: center;
+}
+
+.flow > div:not(.arrow) {
+  padding: 25px;
+
+  min-height: 180px;
+
+  border: 1px solid rgba(63, 45, 58, 0.12);
+
+  border-radius: 16px;
+
+  background: #DCEFF2;
+
+  color: #3F2D3A;
+
+  box-shadow:
+    0 12px 30px rgba(63, 45, 58, 0.12);
+}
+
+.flow span {
+  color: #7A9A60;
+
+  font-size: 12px;
+
+  font-weight: 700;
+}
+
+.flow h3 {
+  color: #3F2D3A;
+
+  margin: 25px 0 8px;
+
+  font-size: 20px;
+}
+
+.flow p {
+  color: #66535F;
+
+  font-size: 13px;
+}
+
+.arrow {
+  color: #E89D52;
+
+  font-size: 25px;
+}
+
+
+/* =========================================================
+   FEATURES
+   ========================================================= */
+
+.about-section {
+  max-width: 1200px;
+}
+
+.feature-grid {
+  margin-top: 50px;
+
+  display: grid;
+
+  grid-template-columns: 1fr 1fr;
+
+  gap: 18px;
+}
+
+.feature-card {
+  padding: 30px;
+
+  border: 1px solid rgba(63, 45, 58, 0.12);
+
+  border-radius: 18px;
+
+  background: #DCEFF2;
+
+  color: #3F2D3A;
+
+  transition: 0.25s ease;
+
+  box-shadow:
+    0 12px 35px rgba(63, 45, 58, 0.12);
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+
+  border-color: #8FBFC6;
+
+  box-shadow:
+    0 20px 45px rgba(63, 45, 58, 0.18);
+}
+
+.feature-card h3 {
+  color: #3F2D3A;
+
+  margin-bottom: 12px;
+
+  font-size: 21px;
+}
+
+.feature-card p {
+  color: #66535F;
+
+  font-size: 14px;
+
+  line-height: 1.7;
+}
+
+
+/* =========================================================
+   FOOTER
+   ========================================================= */
+
+footer {
+  padding: 35px 7%;
+
+  border-top: 1px solid rgba(63, 45, 58, 0.10);
+
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: center;
+
+  color: #66535F;
+
+  font-size: 12px;
+}
+
+
+/* =========================================================
+   PLATFORM / ROLE SELECTION
+   ========================================================= */
+
+.platform-screen {
+  min-height: 100vh;
+
+  background:
+    radial-gradient(
+      circle at 15% 10%,
+      rgba(251, 227, 142, 0.45),
+      transparent 28%
+    ),
+    radial-gradient(
+      circle at 85% 20%,
+      rgba(220, 239, 242, 0.60),
+      transparent 30%
+    ),
+    linear-gradient(
+      to bottom,
+      #FFFDF2 0%,
+      #FBE38E 52%,
+      #7A9A60 100%
+    );
+
+  background-attachment: fixed;
+
+  color: #3F2D3A;
+}
+
+.role-selection {
+  max-width: 1100px;
+
+  margin: auto;
+
+  padding: 110px 5%;
+
+  text-align: center;
+}
+
+.role-selection h1 {
+  color: #3F2D3A;
+
+  font-size: clamp(42px, 5vw, 64px);
+
+  letter-spacing: -2px;
+
+  margin-bottom: 18px;
+}
+
+.role-selection h1 span {
+  color: #E89D52;
+}
+
+.role-selection > p {
+  color: #66535F;
+
+  font-size: 17px;
+
+  margin-bottom: 60px;
+}
+
+
+/* =========================================================
+   ROLE CARDS — SKY BLUE
+   ========================================================= */
+
+.role-grid {
+  display: grid;
+
+  grid-template-columns: repeat(3, 1fr);
+
+  gap: 22px;
+
+  text-align: left;
+}
+
+.role-card {
+  padding: 32px;
+
+  min-height: 330px;
+
+  border: 1px solid rgba(63, 45, 58, 0.12);
+
+  border-radius: 20px;
+
+  background: #DCEFF2;
+
+  color: #3F2D3A;
+
+  transition: 0.3s ease;
+
+  display: flex;
+
+  flex-direction: column;
+
+  box-shadow:
+    0 15px 40px rgba(63, 45, 58, 0.14);
+}
+
+.role-card:hover {
+  transform: translateY(-7px);
+
+  border-color: #8FBFC6;
+
+  background: #DCEFF2;
+
+  box-shadow:
+    0 20px 50px rgba(63, 45, 58, 0.20);
+}
+
+.role-icon {
+  width: 52px;
+  height: 52px;
+
+  display: grid;
+
+  place-items: center;
+
+  border-radius: 14px;
+
+  background: #8FBFC6;
+
+  color: #3F2D3A;
+
+  font-size: 24px;
+
+  margin-bottom: 25px;
+}
+
+.role-card h2 {
+  color: #3F2D3A;
+
+  font-size: 23px;
+
+  margin-bottom: 12px;
+}
+
+.role-card p {
+  color: #66535F;
+
+  font-size: 14px;
+
+  line-height: 1.7;
+
+  flex: 1;
+
+  margin-bottom: 25px;
+}
+
+.role-card .primary-button {
+  width: 100%;
+}
+
+
+/* =========================================================
+   DASHBOARD SCREEN
+   ========================================================= */
+
+.dashboard-screen {
+  min-height: 100vh;
+
+  background:
+    radial-gradient(
+      circle at 20% 10%,
+      rgba(251, 227, 142, 0.35),
+      transparent 28%
+    ),
+    linear-gradient(
+      to bottom,
+      #FFFDF2 0%,
+      #FBE38E 48%,
+      #7A9A60 100%
+    );
+
+  background-attachment: fixed;
+
+  color: #3F2D3A;
+}
+
+
+/* =========================================================
+   DASHBOARD NAV
+   ========================================================= */
+
+.dashboard-nav {
+  height: 76px;
+
+  padding: 0 6%;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: space-between;
+
+  background: rgba(255, 253, 242, 0.90);
+
+  border-bottom: 1px solid rgba(63, 45, 58, 0.10);
+
+  backdrop-filter: blur(14px);
+
+  position: sticky;
+
+  top: 0;
+
+  z-index: 10;
+}
+
+.dashboard-title {
+  color: #66535F;
+
+  font-size: 13px;
+}
+
+
+/* =========================================================
+   DASHBOARD CONTENT
+   ========================================================= */
+
+.dashboard {
+  width: 90%;
+
+  max-width: 1200px;
+
+  margin: auto;
+
+  padding: 55px 0 80px;
+}
+
+.dashboard-heading {
+  display: flex;
+
+  justify-content: space-between;
+
+  align-items: flex-end;
+
+  margin-bottom: 40px;
+}
+
+.dashboard-heading h1 {
+  color: #3F2D3A;
+
+  font-size: clamp(36px, 5vw, 56px);
+
+  line-height: 1.05;
+
+  margin: 10px 0 15px;
+}
+
+.dashboard-heading p {
+  max-width: 650px;
+
+  color: #66535F;
+
+  font-size: 15px;
+}
+
+.status-badge {
+  padding: 9px 14px;
+
+  border: 1px solid rgba(63, 45, 58, 0.15);
+
+  border-radius: 20px;
+
+  color: #3F2D3A;
+
+  font-size: 10px;
+
+  letter-spacing: 1px;
+
+  background: rgba(255, 253, 242, 0.75);
+}
+
+.status-badge span {
+  display: inline-block;
+
+  width: 7px;
+  height: 7px;
+
+  margin-right: 7px;
+
+  border-radius: 50%;
+
+  background: #7A9A60;
+}
+
+
+/* =========================================================
+   STATISTICS — SKY BLUE
+   ========================================================= */
+
+.stats-grid {
+  display: grid;
+
+  grid-template-columns: repeat(4, 1fr);
+
+  gap: 16px;
+}
+
+.stat-card {
+  padding: 24px;
+
+  background: #DCEFF2;
+
+  border: 1px solid rgba(63, 45, 58, 0.12);
+
+  border-radius: 16px;
+
+  color: #3F2D3A;
+
+  box-shadow:
+    0 12px 30px rgba(63, 45, 58, 0.14);
+}
+
+.stat-card span {
+  display: block;
+
+  color: #66535F;
+
+  font-size: 12px;
+
+  margin-bottom: 14px;
+}
+
+.stat-card strong {
+  display: block;
+
+  color: #3F2D3A;
+
+  font-size: 34px;
+
+  margin-bottom: 7px;
+}
+
+.stat-card small {
+  color: #7A9A60;
+}
+
+
+/* =========================================================
+   DASHBOARD GRID
+   ========================================================= */
+
+.dashboard-grid {
+  display: grid;
+
+  grid-template-columns: 1.3fr 1fr;
+
+  gap: 18px;
+
+  margin-top: 18px;
+}
+
+.dashboard-card {
+  padding: 28px;
+
+  background: #DCEFF2;
+
+  border: 1px solid rgba(63, 45, 58, 0.12);
+
+  border-radius: 17px;
+
+  color: #3F2D3A;
+
+  box-shadow:
+    0 12px 30px rgba(63, 45, 58, 0.14);
+}
+
+.card-header {
+  display: flex;
+
+  justify-content: space-between;
+
+  margin-bottom: 25px;
+}
+
+.card-label {
+  color: #7A9A60;
+
+  font-size: 10px;
+
+  font-weight: 700;
+
+  letter-spacing: 1.5px;
+}
+
+.dashboard-card h2 {
+  color: #3F2D3A;
+
+  margin: 7px 0 0;
+
+  font-size: 21px;
+}
+
+.period,
+.view-all {
+  color: #66535F;
+
+  font-size: 11px;
+}
+
+
+/* =========================================================
+   CHART
+   ========================================================= */
+
+.fake-chart {
+  height: 210px;
+}
+
+.chart-line {
+  height: 160px;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  color: #7A9A60;
+
+  font-size: 34px;
+
+  letter-spacing: 5px;
+
+  border-bottom: 1px solid rgba(63, 45, 58, 0.12);
+}
+
+.chart-labels {
+  display: flex;
+
+  justify-content: space-between;
+
+  padding-top: 12px;
+
+  color: #66535F;
+
+  font-size: 10px;
+}
+
+
+/* =========================================================
+   RISK DISTRIBUTION
+   ========================================================= */
+
+.risk-bars {
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 24px;
+}
+
+.bar-info {
+  display: flex;
+
+  justify-content: space-between;
+
+  margin-bottom: 8px;
+
+  font-size: 13px;
+}
+
+.bar-info span {
+  color: #66535F;
+}
+
+.bar-info strong {
+  color: #3F2D3A;
+}
+
+.bar {
+  height: 7px;
+
+  background: rgba(63, 45, 58, 0.10);
+
+  border-radius: 10px;
+
+  overflow: hidden;
+}
+
+.bar-fill {
+  height: 100%;
+
+  border-radius: 10px;
+}
+
+.bar-fill.low {
+  width: 73%;
+
+  background: #7A9A60;
+}
+
+.bar-fill.moderate {
+  width: 20%;
+
+  background: #FBE38E;
+}
+
+.bar-fill.elevated {
+  width: 7%;
+
+  background: #E89D52;
+}
+
+
+/* =========================================================
+   PRIORITY ATTENTION
+   ========================================================= */
+
+.person-row {
+  display: grid;
+
+  grid-template-columns: 80px 110px 1fr;
+
+  gap: 15px;
+
+  padding: 16px 0;
+
+  border-bottom: 1px solid rgba(63, 45, 58, 0.10);
+
+  align-items: center;
+}
+
+.person-id {
+  color: #3F2D3A;
+
+  font-weight: 700;
+}
+
+.risk {
+  padding: 6px 8px;
+
+  border-radius: 6px;
+
+  text-align: center;
+
+  font-size: 10px;
+}
+
+.risk.moderate {
+  color: #3F2D3A;
+
+  background: #FBE38E;
+}
+
+.risk.elevated {
+  color: #FFFDF2;
+
+  background: #E89D52;
+}
+
+.factor {
+  color: #66535F;
+
+  font-size: 12px;
+}
+
+
+/* =========================================================
+   AI INSIGHT
+   ========================================================= */
+
+.ai-card {
+  background: #DCEFF2;
+}
+
+.ai-description {
+  color: #66535F;
+
+  font-size: 13px;
+
+  line-height: 1.7;
+
+  margin: 18px 0;
+}
+
+.factor-list div {
+  display: flex;
+
+  justify-content: space-between;
+
+  padding: 15px 0;
+
+  border-bottom: 1px solid rgba(63, 45, 58, 0.10);
+
+  font-size: 13px;
+}
+
+.factor-list span {
+  color: #66535F;
+}
+
+.factor-list strong {
+  color: #7A9A60;
+}
+
+
+/* =========================================================
+   RECOMMENDED ACTION
+   ========================================================= */
+
+.action-card {
+  margin-top: 18px;
+
+  padding: 30px;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: space-between;
+
+  gap: 30px;
+
+  background: #DCEFF2;
+
+  border: 1px solid rgba(63, 45, 58, 0.12);
+
+  border-radius: 17px;
+
+  color: #3F2D3A;
+
+  box-shadow:
+    0 12px 30px rgba(63, 45, 58, 0.14);
+}
+
+.action-card h2 {
+  color: #3F2D3A;
+
+  margin: 8px 0;
+}
+
+.action-card p {
+  max-width: 650px;
+
+  color: #66535F;
+
+  line-height: 1.6;
+
+  font-size: 13px;
+}
+
+.action-buttons {
+  display: flex;
+
+  gap: 10px;
+}
+
+
+/* =========================================================
+   PRIVACY
+   ========================================================= */
+
+.privacy-note {
+  margin-top: 18px;
+
+  padding: 18px;
+
+  display: flex;
+
+  gap: 18px;
+
+  border: 1px solid rgba(63, 45, 58, 0.12);
+
+  border-radius: 12px;
+
+  color: #66535F;
+
+  font-size: 11px;
+
+  line-height: 1.6;
+
+  background: rgba(255, 253, 242, 0.75);
+}
+
+.privacy-note strong {
+  color: #3F2D3A;
+}
+
+
+/* =========================================================
+   MOBILE
+   ========================================================= */
+
+@media (max-width: 900px) {
+
+  .nav-links {
+    display: none;
+  }
+
+  .hero {
+    grid-template-columns: 1fr;
+
+    padding-top: 70px;
+  }
+
+  .dashboard-preview {
+    max-width: 650px;
+  }
+
+  .flow {
+    grid-template-columns: 1fr;
+  }
+
+  .arrow {
+    transform: rotate(90deg);
+
+    text-align: center;
+  }
+
+  .stats-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .dashboard-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .dashboard-heading {
+    flex-direction: column;
+
+    align-items: flex-start;
+
+    gap: 20px;
+  }
+
+  .action-card {
+    flex-direction: column;
+
+    align-items: flex-start;
+  }
+}
+
+
+/* =========================================================
+   ROLE MOBILE
+   ========================================================= */
+
+@media (max-width: 850px) {
+
+  .role-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .role-selection {
+    padding: 70px 6%;
+  }
+}
+
+
+/* =========================================================
+   SMALL MOBILE
+   ========================================================= */
+
+@media (max-width: 600px) {
+
+  .navbar {
+    padding: 0 5%;
+  }
+
+  .nav-button {
+    display: none;
+  }
+
+  .hero {
+    padding: 60px 6%;
+  }
+
+  .hero h1 {
+    font-size: 48px;
+
+    letter-spacing: -2px;
+  }
+
+  .hero-buttons {
+    flex-direction: column;
+  }
+
+  .preview-grid,
+  .feature-grid,
+  .stats-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .problem-section,
+  .how-section,
+  .about-section {
+    padding: 80px 6%;
+  }
+
+  footer {
+    flex-direction: column;
+
+    gap: 15px;
+
+    align-items: flex-start;
+  }
+
+  .dashboard {
+    width: 88%;
+  }
+
+  .dashboard-heading h1 {
+    font-size: 38px;
+  }
+
+  .person-row {
+    grid-template-columns: 1fr;
+
+    gap: 8px;
+  }
+
+  .action-buttons {
+    width: 100%;
+
+    flex-direction: column;
+  }
+
+  .privacy-note {
+    flex-direction: column;
+  }
+}
