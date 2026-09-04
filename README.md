@@ -28,133 +28,78 @@ Predict the need for support, not the fitness of the individual.
 
 # System Architechure 
 
-<table align="center" width="90%">
-<tr>
-<td align="center">
+<h2>🏗️ System Architecture</h2>
 
-<b>DATA SOURCES</b><br><br>
+<table>
+  <tr>
+    <th colspan="2">DATA PROCESSING LAYER</th>
+  </tr>
+  <tr>
+    <td colspan="2" align="center">
+      Cleaning & Validation • Feature Engineering • Anonymization • Missing-Value Handling
+    </td>
+  </tr>
 
-Anonymous HR Data • Deployment Records • Leave History • Wellness Surveys • Workload Data<br>
-Behavioral Indicators
+  <tr>
+    <th colspan="2">⬇️</th>
+  </tr>
 
-</td>
-</tr>
+  <tr>
+    <th colspan="2">AI / ML ENGINE</th>
+  </tr>
+  <tr>
+    <td colspan="2" align="center">
+      <b>Stress & Welfare Risk Prediction Model</b><br>
+      Risk Score + Trend → Low / Moderate / High
+    </td>
+  </tr>
 
-<tr>
-<td align="center">⬇️</td>
-</tr>
+  <tr>
+    <th colspan="2">⬇️</th>
+  </tr>
 
-<tr>
-<td align="center">
+  <tr>
+    <th>EXPLAINABLE AI LAYER</th>
+    <th>EARLY WARNING SYSTEM</th>
+  </tr>
+  <tr>
+    <td>
+      • Why is risk increasing?<br>
+      • Key contributing factors<br>
+      • Risk trend explanation
+    </td>
+    <td>
+      • Risk threshold detection<br>
+      • Trend-based alerts<br>
+      • Priority identification
+    </td>
+  </tr>
 
-<b>DATA PROCESSING LAYER</b><br><br>
+  <tr>
+    <th colspan="2">⬇️</th>
+  </tr>
 
-Cleaning & Validation &nbsp;&nbsp; • &nbsp;&nbsp;
-Feature Engineering &nbsp;&nbsp; • &nbsp;&nbsp;
-Anonymization &nbsp;&nbsp; • &nbsp;&nbsp;
-Missing-value Handling
+  <tr>
+    <th colspan="2">WELFARE OFFICER DASHBOARD</th>
+  </tr>
+  <tr>
+    <td colspan="2" align="center">
+      Risk Overview • Personnel Trends • Contributing Factors • Priority Attention
+    </td>
+  </tr>
 
-</td>
-</tr>
+  <tr>
+    <th colspan="2">⬇️</th>
+  </tr>
 
-<tr>
-<td align="center">⬇️</td>
-</tr>
-
-<tr>
-<td align="center">
-
-<b>AI / ML ENGINE</b><br><br>
-
-Stress & Welfare Risk Prediction Model<br>
-Risk Score + Trend → Low / Moderate / High
-
-</td>
-</tr>
-
-<tr>
-<td align="center">⬇️</td>
-</tr>
-
-<tr>
-<td>
-
-<table width="100%">
-<tr>
-
-<td align="center" width="50%">
-
-<b>EXPLAINABLE AI LAYER</b><br><br>
-
-Why is risk increasing?<br>
-Key contributing factors<br>
-Risk trend explanation
-
-</td>
-
-<td align="center" width="50%">
-
-<b>EARLY WARNING SYSTEM</b><br><br>
-
-Risk threshold detection<br>
-Trend-based alerts<br>
-Priority identification
-
-</td>
-
-</tr>
-</table>
-
-</td>
-</tr>
-
-<tr>
-<td align="center">⬇️</td>
-</tr>
-
-<tr>
-<td align="center">
-
-<b>WELFARE OFFICER DASHBOARD</b><br><br>
-
-Risk Overview &nbsp; • &nbsp;
-Personnel Trends &nbsp; • &nbsp;
-Contributing Factors &nbsp; • &nbsp;
-Priority Attention
-
-</td>
-</tr>
-
-<tr>
-<td align="center">⬇️</td>
-</tr>
-
-<tr>
-<td align="center">
-
-<b>HUMAN-LED INTERVENTION</b><br><br>
-
-Welfare Check-in &nbsp; • &nbsp;
-Support Resources &nbsp; • &nbsp;
-Leave / Workload Review
-
-</td>
-</tr>
-
-<tr>
-<td align="center">⬇️</td>
-</tr>
-
-<tr>
-<td align="center">
-
-<b>FEEDBACK LOOP</b><br><br>
-
-Outcome → Model Improvement
-
-</td>
-</tr>
-
+  <tr>
+    <th colspan="2">PERSONNEL WELLNESS APP</th>
+  </tr>
+  <tr>
+    <td colspan="2" align="center">
+      Voluntary Self-Assessment • Wellness Check-ins • Personalized Recommendations
+    </td>
+  </tr>
 </table>
 
 # User Roles and Access 
