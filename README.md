@@ -34,9 +34,41 @@ Predict the need for support, not the fitness of the individual.
 
 # User Roles and Access 
 
-<p align="center">
-  <img src="https://github.com/ankita06nandy/ManRaksha/blob/main/frontend/docs/user_roles.png" width="900">
-</p>
+<table>
+<tr>
+
+<td align="center" width="33%">
+
+### Personnel
+
+Access personal wellness insights, self-assessments, support resources and wellbeing guidance.
+
+<br>
+
+</td>
+
+<td align="center" width="33%">
+
+###  Welfare Officer
+
+Monitor welfare indicators, understand risk factors and support early human-led intervention.
+
+<br>
+
+</td>
+
+<td align="center" width="33%">
+
+###  Administrator
+
+View aggregate welfare trends, workload patterns and system-level analytics.
+
+<br>
+
+</td>
+
+</tr>
+</table>
 
 
 # Technology Stack
