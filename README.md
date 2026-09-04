@@ -34,65 +34,49 @@ Predict the need for support, not the fitness of the individual.
 
 # User Roles and Access 
 
-h2>User Roles & Access</h2>
-
 <p align="center">
   <img src="https://github.com/ankita06nandy/ManRaksha/blob/main/frontend/docs/user_roles.png" width="900">
 </p>
 
-## Personnel
-
-Access to:
-Personal wellness insights
-Voluntary self-assessment
-Personal risk trends
-Welfare recommendations
-Support resources
-
-## Welfare Officer
-
-Access to:
-Welfare indicators
-Risk trends
-Priority attention profiles
-Explainable risk factors
-Welfare intervention recommendations
-
-## Administrator
-
-Access to:
-Aggregate welfare trends
-Workload patterns
-Organization-level analytics
-System-level insights
 
 # Technology Stack
 
-## Frontend
-React.js
-Vite
+<table>
+  <tr>
+    <th>Layer</th>
+    <th>Technologies</th>
+  </tr>
 
-## Backend
-Python
-FastAPI
-REST APIs
+  <tr>
+    <td><b>Frontend</b></td>
+    <td>React.js • Vite</td>
+  </tr>
 
-## AI / ML
-Python
-Scikit-learn
-Explainable AI techniques
+  <tr>
+    <td><b>Backend</b></td>
+    <td>Python • FastAPI • REST APIs</td>
+  </tr>
 
-## Database
-PostgreSQL
+  <tr>
+    <td><b>AI / ML</b></td>
+    <td>Python • Scikit-learn • Explainable AI Techniques</td>
+  </tr>
 
-## Security
-Encryption
-Authentication & Authorization
-Anonymization
+  <tr>
+    <td><b>Database</b></td>
+    <td>PostgreSQL</td>
+  </tr>
 
-## Deployment
-Vercel
-Cloud 
+  <tr>
+    <td><b>Security</b></td>
+    <td>Encryption • Authentication & Authorization • Anonymization</td>
+  </tr>
+
+  <tr>
+    <td><b>Deployment</b></td>
+    <td>Vercel • Cloud Infrastructure</td>
+  </tr>
+</table>
 
 # System Strengths
 
@@ -164,8 +148,6 @@ Integration with existing government welfare platforms.
 Expansion to disaster-response and other high-stress occupations.
 
 # Technical Challenges & Mitigation
-
-<h2>Technical Challenges & Mitigation</h2>
 
 <p align="center">
   <img src="https://github.com/ankita06nandy/ManRaksha/blob/main/frontend/docs/technical%20_challenges.png" alt="ManRaksha Technical Challenges" width="900">
