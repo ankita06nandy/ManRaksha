@@ -1,4 +1,6 @@
-# **ManRaksha**
+<div align="center">
+<img src="frontend/docs/ManRaksha-logo.png" alt="ManRaksha Logo" width="150">
+</div># **ManRaksha**
 AI-Based Predictive Personnel Stress and Welfare Monitoring System for Uniformed Forces 
 
 # Project Overview 
