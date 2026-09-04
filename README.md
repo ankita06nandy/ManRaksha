@@ -28,11 +28,20 @@ Predict the need for support, not the fitness of the individual.
 
 # System Architechure 
 
-![System Architecture](frontend/docs/System%20Architecture.png)
+<h2>System Architecture</h2>
+
+<p align="center">
+  <img src="frontend/docs/system_architecture.png" alt="ManRaksha System Architecture" width="900">
+</p>
 
 # User Roles and Access 
 
-![User Roles](frontend/docs/User%20Roles.png)
+h2>User Roles & Access</h2>
+
+<p align="center">
+  <img src="frontend/docs/user-roles.png" alt="ManRaksha User Roles" width="900">
+</p>
+
 ## Personnel
 
 Access to:
@@ -157,7 +166,13 @@ Integration with existing government welfare platforms.
 Expansion to disaster-response and other high-stress occupations.
 
 # Technical Challenges & Mitigation
-![Technical Challenges](frontend/docs/Technical%20Challenges.png)
+
+<h2>Technical Challenges & Mitigation</h2>
+
+<p align="center">
+  <img src="frontend/docs/technical-challenges.png" alt="ManRaksha Technical Challenges" width="900">
+</p>
+
 # Acknowledgement
 The project is informed by research and frameworks related to occupational mental health, military mental healthcare, responsible AI, and AI risk management.
 
