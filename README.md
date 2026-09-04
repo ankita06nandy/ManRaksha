@@ -28,41 +28,134 @@ Predict the need for support, not the fitness of the individual.
 
 # System Architechure 
 
-┌─────────────────────────────────────┐
-│           DATA SOURCES              │
-│ HR • Deployment • Leave • Wellness  │
-│ Workload • Behavioral Indicators    │
-└─────────────────────────────────────┘
-                  ↓
-┌─────────────────────────────────────┐
-│       DATA PROCESSING LAYER         │
-│ Cleaning • Features • Anonymization │
-└─────────────────────────────────────┘
-                  ↓
-┌─────────────────────────────────────┐
-│            AI / ML ENGINE           │
-│ Stress & Welfare Risk Prediction    │
-└─────────────────────────────────────┘
-                  ↓
-┌──────────────────┬──────────────────┐
-│ EXPLAINABLE AI   │ EARLY WARNING    │
-│                  │                  │
-│ Contributing     │ Thresholds       │
-│ Factors          │ Alerts           │
-└──────────────────┴──────────────────┘
-                  ↓
-┌─────────────────────────────────────┐
-│      WELFARE OFFICER DASHBOARD      │
-└─────────────────────────────────────┘
-                  ↓
-┌─────────────────────────────────────┐
-│       HUMAN-LED INTERVENTION        │
-└─────────────────────────────────────┘
-                  ↓
-┌─────────────────────────────────────┐
-│            FEEDBACK LOOP            │
-│        Outcome → Improvement        │
-└─────────────────────────────────────┘
+<table align="center" width="90%">
+<tr>
+<td align="center">
+
+<b>DATA SOURCES</b><br><br>
+
+Anonymous HR Data • Deployment Records • Leave History • Wellness Surveys • Workload Data<br>
+Behavioral Indicators
+
+</td>
+</tr>
+
+<tr>
+<td align="center">⬇️</td>
+</tr>
+
+<tr>
+<td align="center">
+
+<b>DATA PROCESSING LAYER</b><br><br>
+
+Cleaning & Validation &nbsp;&nbsp; • &nbsp;&nbsp;
+Feature Engineering &nbsp;&nbsp; • &nbsp;&nbsp;
+Anonymization &nbsp;&nbsp; • &nbsp;&nbsp;
+Missing-value Handling
+
+</td>
+</tr>
+
+<tr>
+<td align="center">⬇️</td>
+</tr>
+
+<tr>
+<td align="center">
+
+<b>AI / ML ENGINE</b><br><br>
+
+Stress & Welfare Risk Prediction Model<br>
+Risk Score + Trend → Low / Moderate / High
+
+</td>
+</tr>
+
+<tr>
+<td align="center">⬇️</td>
+</tr>
+
+<tr>
+<td>
+
+<table width="100%">
+<tr>
+
+<td align="center" width="50%">
+
+<b>EXPLAINABLE AI LAYER</b><br><br>
+
+Why is risk increasing?<br>
+Key contributing factors<br>
+Risk trend explanation
+
+</td>
+
+<td align="center" width="50%">
+
+<b>EARLY WARNING SYSTEM</b><br><br>
+
+Risk threshold detection<br>
+Trend-based alerts<br>
+Priority identification
+
+</td>
+
+</tr>
+</table>
+
+</td>
+</tr>
+
+<tr>
+<td align="center">⬇️</td>
+</tr>
+
+<tr>
+<td align="center">
+
+<b>WELFARE OFFICER DASHBOARD</b><br><br>
+
+Risk Overview &nbsp; • &nbsp;
+Personnel Trends &nbsp; • &nbsp;
+Contributing Factors &nbsp; • &nbsp;
+Priority Attention
+
+</td>
+</tr>
+
+<tr>
+<td align="center">⬇️</td>
+</tr>
+
+<tr>
+<td align="center">
+
+<b>HUMAN-LED INTERVENTION</b><br><br>
+
+Welfare Check-in &nbsp; • &nbsp;
+Support Resources &nbsp; • &nbsp;
+Leave / Workload Review
+
+</td>
+</tr>
+
+<tr>
+<td align="center">⬇️</td>
+</tr>
+
+<tr>
+<td align="center">
+
+<b>FEEDBACK LOOP</b><br><br>
+
+Outcome → Model Improvement
+
+</td>
+</tr>
+
+</table>
 
 # User Roles and Access 
 
