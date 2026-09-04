@@ -1,5 +1,5 @@
 <div align="center">
-<img src="frontend/docs/ManRaksha-logo.png" alt="ManRaksha Logo" width="150">
+<img src="frontend/docs/ManRaksha_logo.png" alt="ManRaksha Logo" width="150">
 <h1>MANRAKSHA</h1>
 <h3>AI-Based Predictive Personnel Stress &amp; Welfare Monitoring System</h3>
 
