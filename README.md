@@ -28,10 +28,8 @@ Predict the need for support, not the fitness of the individual.
 
 # System Architechure 
 
-<h2>System Architecture</h2>
-
 <p align="center">
-  <img src="frontend/docs/system_architecture.png" alt="ManRaksha System Architecture" width="900">
+  <img src="https://github.com/ankita06nandy/ManRaksha/blob/main/frontend/docs/system_architechure.png" alt="ManRaksha System Architecture" width="900">
 </p>
 
 # User Roles and Access 
@@ -39,7 +37,7 @@ Predict the need for support, not the fitness of the individual.
 h2>User Roles & Access</h2>
 
 <p align="center">
-  <img src="frontend/docs/user-roles.png" alt="ManRaksha User Roles" width="900">
+  <img src="https://github.com/ankita06nandy/ManRaksha/blob/main/frontend/docs/user_roles.png" width="900">
 </p>
 
 ## Personnel
@@ -170,7 +168,7 @@ Expansion to disaster-response and other high-stress occupations.
 <h2>Technical Challenges & Mitigation</h2>
 
 <p align="center">
-  <img src="frontend/docs/technical-challenges.png" alt="ManRaksha Technical Challenges" width="900">
+  <img src="https://github.com/ankita06nandy/ManRaksha/blob/main/frontend/docs/technical%20_challenges.png" alt="ManRaksha Technical Challenges" width="900">
 </p>
 
 # Acknowledgement
