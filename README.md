@@ -28,9 +28,41 @@ Predict the need for support, not the fitness of the individual.
 
 # System Architechure 
 
-<p align="center">
-  <img src="https://github.com/ankita06nandy/ManRaksha/blob/main/frontend/docs/system_architechure.png" alt="ManRaksha System Architecture" width="900">
-</p>
+┌─────────────────────────────────────┐
+│           DATA SOURCES              │
+│ HR • Deployment • Leave • Wellness  │
+│ Workload • Behavioral Indicators    │
+└─────────────────────────────────────┘
+                  ↓
+┌─────────────────────────────────────┐
+│       DATA PROCESSING LAYER         │
+│ Cleaning • Features • Anonymization │
+└─────────────────────────────────────┘
+                  ↓
+┌─────────────────────────────────────┐
+│            AI / ML ENGINE           │
+│ Stress & Welfare Risk Prediction    │
+└─────────────────────────────────────┘
+                  ↓
+┌──────────────────┬──────────────────┐
+│ EXPLAINABLE AI   │ EARLY WARNING    │
+│                  │                  │
+│ Contributing     │ Thresholds       │
+│ Factors          │ Alerts           │
+└──────────────────┴──────────────────┘
+                  ↓
+┌─────────────────────────────────────┐
+│      WELFARE OFFICER DASHBOARD      │
+└─────────────────────────────────────┘
+                  ↓
+┌─────────────────────────────────────┐
+│       HUMAN-LED INTERVENTION        │
+└─────────────────────────────────────┘
+                  ↓
+┌─────────────────────────────────────┐
+│            FEEDBACK LOOP            │
+│        Outcome → Improvement        │
+└─────────────────────────────────────┘
 
 # User Roles and Access 
 
