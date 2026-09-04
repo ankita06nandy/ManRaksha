@@ -27,9 +27,6 @@ Predict the need for support, not the fitness of the individual.
 *Human-in-the-Loop:* AI supports welfare officers rather than replacing human judgment.
 
 # System Architechure 
-
-<h2>🏗️ System Architecture</h2>
-
 <table>
   <tr>
     <th colspan="2">DATA PROCESSING LAYER</th>
