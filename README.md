@@ -1,9 +1,15 @@
 <div align="center">
-<img src="./frontend/docs/ManRaksha_logo.png" alt="ManRaksha Logo" width="150">
-# MANRAKSHA
-### AI-Based Predictive Personnel Stress & Welfare Monitoring System
+<img src="frontend/docs/ManRaksha-logo.png" alt="ManRaksha Logo" width="150">
+<h1>MANRAKSHA</h1>
+<h3>AI-Based Predictive Personnel Stress &amp; Welfare Monitoring System</h3>
+
+<p>
+  <b>Predict the need for support, not the fitness of the individual.</b>
+</p>
+
 </div>
 
+---
 # Project Overview 
 The proposed MANRAKSHA system is an AI-powered personnel welfare platform that analyzes organizational and voluntarily provided wellness data to identify early indicators of stress and burnout.
 ## Key components:
