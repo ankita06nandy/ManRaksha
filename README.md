@@ -149,9 +149,52 @@ Expansion to disaster-response and other high-stress occupations.
 
 # Technical Challenges & Mitigation
 
-<p align="center">
-  <img src="https://github.com/ankita06nandy/ManRaksha/blob/main/frontend/docs/technical%20_challenges.png" alt="ManRaksha Technical Challenges" width="900">
-</p>
+<table>
+  <tr>
+    <th>Challenge</th>
+    <th>Proposed Approach</th>
+  </tr>
+
+  <tr>
+    <td><b>Sensitive personal data</b></td>
+    <td>Encryption + anonymization + RBAC</td>
+  </tr>
+
+  <tr>
+    <td><b>False positives/negatives</b></td>
+    <td>Model validation + continuous monitoring</td>
+  </tr>
+
+  <tr>
+    <td><b>Personnel distrust</b></td>
+    <td>Consent + transparency + welfare-only usage</td>
+  </tr>
+
+  <tr>
+    <td><b>AI bias</b></td>
+    <td>Fairness evaluation and periodic auditing</td>
+  </tr>
+
+  <tr>
+    <td><b>Lack of explainability</b></td>
+    <td>Explainable AI and contributing-factor display</td>
+  </tr>
+
+  <tr>
+    <td><b>Cybersecurity threats</b></td>
+    <td>Secure APIs, encryption and access controls</td>
+  </tr>
+
+  <tr>
+    <td><b>Data availability</b></td>
+    <td>Multi-source data + voluntary self-reporting</td>
+  </tr>
+
+  <tr>
+    <td><b>Misuse of predictions</b></td>
+    <td>Human-in-the-loop decision-making</td>
+  </tr>
+</table>
 
 # Acknowledgement
 The project is informed by research and frameworks related to occupational mental health, military mental healthcare, responsible AI, and AI risk management.
