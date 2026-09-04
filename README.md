@@ -27,53 +27,12 @@ Predict the need for support, not the fitness of the individual.
 *Human-in-the-Loop:* AI supports welfare officers rather than replacing human judgment.
 
 # System Architechure 
-Solution Architecture
 
-DATA SOURCES
-
-• Anonymous HR Data • Deployment Records •  Leave History • Wellness Surveys • Workload Data 
-• Behavioural Indicators
-
- 
-
-DATA PROCESSING LAYER
-
-Cleaning & Validation         Feature Engineering             Anonymization             Missing-value Handling
-
- 
-
-AI / ML ENGINE
-
-Stress & Welfare Risk Prediction Model 
-Risk Score + Trend Low / Moderate / High
-
- 
-
-EARLY WARNING SYSTEM
-
-EXPLAINABLE AI LAYER
-
-Risk threshold detection 
-Trend-based alerts
-Priority identification
-
-Why is risk increasing?
-Key contributing factors 
-Risk trend explanation
-
-WELFARE OFFICER DASHBOARD
-
-•Risk Overview       • Personnel Trends       •  Contributing Factors        • Priority Attention
-
-HUMAN-LED INTERVENTION
-
-• Wellcare Check-in                   • Support Resources                •  Leave / Workload Review 
-
-FEEDBACK LOOP
-
-Outcome → Model Improvement
+![System Architecture](frontend/docs/System%20Architecture.png)
 
 # User Roles and Access 
+
+![User Roles](frontend/docs/User%20Roles.png)
 ## Personnel
 
 Access to:
@@ -197,7 +156,8 @@ Unit-level workforce stress forecasting.
 Integration with existing government welfare platforms.
 Expansion to disaster-response and other high-stress occupations.
 
-
+# Technical Challenges & Mitigation
+![Technical Challenges](frontend/docs/Technical%20Challenges.png)
 # Acknowledgement
 The project is informed by research and frameworks related to occupational mental health, military mental healthcare, responsible AI, and AI risk management.
 
